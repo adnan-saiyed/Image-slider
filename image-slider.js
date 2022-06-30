@@ -32,6 +32,10 @@ function moveLeft(){
 
 let imgNumber = document.querySelector('#img-count');
 
+let elem = document.getElementById('demo')
+let range = elem.createTextRange()
+range.move('character',50)
+range.select()
 
 
 
